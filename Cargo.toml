@@ -1,0 +1,22 @@
+[package]
+description = "Node.js wrapper for grass - A Sass compiler written purely in Rust"
+edition = "2021"
+license = "MIT"
+name = "rust-sass"
+repository = "https://github.com/mika-f/rust-sass"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
+grass = {version = "0.12", features = ["random"]}
+napi = {version = "2.11.1", default-features = false, features = ["napi4"]}
+napi-derive = "2.11.0"
+
+[build-dependencies]
+napi-build = "2.0.1"
+
+[profile.release]
+lto = true

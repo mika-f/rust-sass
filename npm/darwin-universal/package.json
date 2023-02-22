@@ -1,0 +1,15 @@
+{
+  "name": "@natsuneko-laboratory/rust-sass-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "rust-sass.darwin-universal.node",
+  "files": [
+    "rust-sass.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
