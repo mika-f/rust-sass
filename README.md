@@ -2,6 +2,8 @@
 
 This package is an alternative to the [`sass`](https://www.npmjs.com/package/sass) package but use [`grass`](https://github.com/connorskees/grass) as Sass compiler.
 
+##
+
 ## Why use this package?
 
 - `sass` (JS-compiled) is an easy to use but 2.5x and 10x slower than Dart VM.
@@ -15,6 +17,13 @@ This package is an alternative to the [`sass`](https://www.npmjs.com/package/sas
   - Run: `pnpm run test:node`
 - `rust` : ~1500ms (1.5s)
   - Run: `pnpm run test:rust`
+
+## Publish
+
+```bash
+$ npm version [major|minor|patch]
+$ git push --follow-tags
+```
 
 ## License
 
