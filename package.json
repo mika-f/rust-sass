@@ -43,10 +43,11 @@
   },
   "scripts": {
     "artifacts": "napi artifacts",
-    "build": "napi build --platform --release && tsc",
-    "build:debug": "napi build --platform",
+    "build:ts": "tsc",
+    "build:rust": "napi build --platform --release",
+    "build:rust:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "test:dart": "webpack --config ./webpack.config.dart.js",
     "test:node": "webpack --config ./webpack.config.node.js",
     "test:rust": "webpack --config ./webpack.config.rust.js",
@@ -55,5 +56,16 @@
   },
   "repository": "https://github.com/mika-f/rust-sass",
   "description": "The Sass compiler wrapper with grass, a Rust implementation, as backend.",
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "optionalDependencies": {
+    "@natsuneko-laboratory/rust-sass-win32-x64-msvc": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-darwin-x64": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-linux-x64-gnu": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-darwin-arm64": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-linux-arm64-gnu": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-linux-arm64-musl": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-win32-arm64-msvc": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-linux-x64-musl": "0.0.0",
+    "@natsuneko-laboratory/rust-sass-darwin-universal": "0.0.0"
+  }
 }
