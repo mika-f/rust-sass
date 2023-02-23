@@ -2,7 +2,31 @@
 
 This package is an alternative to the [`sass`](https://www.npmjs.com/package/sass) package but use [`grass`](https://github.com/connorskees/grass) as Sass compiler.
 
-##
+## Usage
+
+### webpack
+
+```javascript
+module.exports = {
+  module: {
+    rules: [
+      // ...
+      {
+        test: /\.scss$/,
+        use: [
+          // other loaders
+          {
+            loader: "sass-loader",
+            options: {
+              implementation: require("@natsuneko-laboratory/rust-sass/lib/sass-loader"),
+            },
+          },
+        ],
+      },
+    ],
+  },
+};
+```
 
 ## Why use this package?
 
