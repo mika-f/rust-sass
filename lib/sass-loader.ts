@@ -1,12 +1,7 @@
 import * as pkg from "../package.json"; // assert { type: "json" };
-import { compile, compileLegacy } from "../";
+import { compile, compileLegacy } from "..";
 
-import type {
-  SassError,
-  SassResult,
-  LegacySassOptions,
-  SassOptions,
-} from "../";
+import type { SassError, SassResult, LegacySassOptions, SassOptions } from "..";
 
 // options
 type LoggerOptions = {

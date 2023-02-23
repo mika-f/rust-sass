@@ -33,7 +33,7 @@ module.exports = {
             loader: "sass-loader",
             options: {
               sourceMap: true,
-              implementation: require.resolve("./lib"),
+              implementation: require.resolve("./lib/sass-loader"),
             },
           },
         ],
