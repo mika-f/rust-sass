@@ -56,16 +56,5 @@
   },
   "repository": "https://github.com/mika-f/rust-sass",
   "description": "The Sass compiler wrapper with grass, a Rust implementation, as backend.",
-  "packageManager": "yarn@3.4.1",
-  "optionalDependencies": {
-    "@natsuneko-laboratory/rust-sass-win32-x64-msvc": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-darwin-x64": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-linux-x64-gnu": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-darwin-arm64": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-linux-arm64-gnu": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-linux-arm64-musl": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-win32-arm64-msvc": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-linux-x64-musl": "0.0.0",
-    "@natsuneko-laboratory/rust-sass-darwin-universal": "0.0.0"
-  }
+  "packageManager": "yarn@3.4.1"
 }
