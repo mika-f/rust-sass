@@ -1,7 +1,7 @@
 {
   "name": "@natsuneko-laboratory/rust-sass",
   "version": "0.0.0",
-  "main": "lib/index.js",
+  "main": "index.js",
   "types": "index.d.ts",
   "napi": {
     "name": "rust-sass",
@@ -54,5 +54,6 @@
     "version": "napi version"
   },
   "repository": "https://github.com/mika-f/rust-sass",
-  "description": "The Sass compiler wrapper with grass, a Rust implementation, as backend."
+  "description": "The Sass compiler wrapper with grass, a Rust implementation, as backend.",
+  "packageManager": "yarn@3.4.1"
 }
