@@ -1,3 +1,3 @@
-# `rust-sass-win32-arm64-msvc`
+# `@natsuneko-laboratory/rust-sass-win32-arm64-msvc`
 
-This is the **aarch64-pc-windows-msvc** binary for `rust-sass`
+This is the **aarch64-pc-windows-msvc** binary for `@natsuneko-laboratory/rust-sass`

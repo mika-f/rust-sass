@@ -11,10 +11,12 @@
   "files": [
     "rust-sass.linux-x64-musl.node"
   ],
+  "description": "The Sass compiler wrapper with grass, a Rust implementation, as backend.",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/mika-f/rust-sass",
   "libc": [
     "musl"
   ]

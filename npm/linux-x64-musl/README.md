@@ -1,3 +1,3 @@
-# `rust-sass-linux-x64-musl`
+# `@natsuneko-laboratory/rust-sass-linux-x64-musl`
 
-This is the **x86_64-unknown-linux-musl** binary for `rust-sass`
+This is the **x86_64-unknown-linux-musl** binary for `@natsuneko-laboratory/rust-sass`
